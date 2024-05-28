@@ -20,6 +20,14 @@ h3 {
 .commitment-section p{
     text-align: center;
 }
+@media (max-width:650px) {
+    h1{
+        font-size: 2rem;
+    }
+    .first-section p{
+        font-size: 1rem;
+    }
+}
 input,
 textarea,
 button {
