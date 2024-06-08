@@ -4,7 +4,13 @@ body {
     color: #31363F;
     background: #F1F1F1;
 }
-
+a{
+    text-decoration: none;
+    color: #FC4100;
+}
+a:hover{
+    color: #00215E;
+}
 h1 {
     text-align: center;
     font-size: 3rem;
@@ -189,6 +195,7 @@ footer a:focus {
     display: flex;
     margin-bottom: 1em;
     border-radius: .5em;
+    /* padding: .5em; */
 }
 
 .contact-icons {
@@ -224,6 +231,7 @@ input:focus {
     border: none;
     background-color: #00215E;
     color: #eeeeee;
+    cursor: pointer;
 }
 
 .submit-btn:hover,
