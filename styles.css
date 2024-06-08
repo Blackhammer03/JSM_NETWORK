@@ -4,35 +4,43 @@ body {
     color: #31363F;
     background: #F1F1F1;
 }
+
 h1 {
     text-align: center;
     font-size: 3rem;
 }
+
 h1,
 h3 {
     font-family: 'roboto', sans-serif;
     font-weight: 700;
 }
-.first-section p{
+
+.first-section p {
     text-align: center;
     font-size: 1.5rem;
 }
-.commitment-section p{
+
+.commitment-section p {
     text-align: center;
 }
+
 @media (max-width:650px) {
-    h1{
+    h1 {
         font-size: 2rem;
     }
-    .first-section p{
+
+    .first-section p {
         font-size: 1rem;
     }
 }
+
 input,
 textarea,
 button {
     font-family: 'poppins', serif;
 }
+
 header {
     background-color: #00215E;
 }
@@ -42,6 +50,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 header img {
     width: 80px;
 }
@@ -66,24 +75,29 @@ nav a:focus {
     text-decoration: none;
     color: #FC4100;
 }
-.active-page{
+
+.active-page {
     border-bottom: solid 3px green;
     padding-bottom: 3px;
 }
+
 .active-page:hover,
-.active-page:focus{
+.active-page:focus {
     color: #eeeeee;
 }
+
 @media (max-width:600px) {
     .header-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    nav li{
+
+    nav li {
         margin: 0 1.5em;
     }
 }
+
 /* SERVICES SECTION */
 .container {
     margin: 0 auto;
@@ -105,7 +119,7 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.vector-img{
+.vector-img {
     max-width: 30%;
 }
 
@@ -156,26 +170,28 @@ footer a:focus {
 
 /* -------      About    --------- */
 
-.carousel-img{
+.carousel-img {
     max-width: 100%;
     border-radius: 1em;
 }
 
-.section-background{
+.section-background {
     background: #00215E;
     padding: 1em 2em;
 }
-.commitment-section{
+
+.commitment-section {
     color: #eeeeee;
 }
 
-.contact{
+.contact {
     border: solid 1px white;
     display: flex;
     margin-bottom: 1em;
     border-radius: .5em;
 }
-.contact-icons{
+
+.contact-icons {
     background: #fc3f0074;
     color: #FC4100;
     padding: 1em;
@@ -183,10 +199,12 @@ footer a:focus {
     align-content: center;
     border-radius: 50%;
 }
-form{
-  display: grid;
-  margin-left: 3em;
+
+form {
+    display: grid;
+    margin-left: 3em;
 }
+
 input,
 textarea {
     border: solid 1px white;
@@ -194,40 +212,46 @@ textarea {
     padding: 1em;
     background: transparent;
 }
-input:focus{
+
+input:focus {
     border: solid 1px white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.submit-btn{
+
+.submit-btn {
     padding: 1em;
     border-radius: 1em;
     border: none;
     background-color: #00215E;
     color: #eeeeee;
 }
+
 .submit-btn:hover,
-.submit-btn:focus{
+.submit-btn:focus {
     background-color: #00215eeb;
 }
 
-.wrapper{
-  display: flex;
-  max-width: 960px;
-  margin: 0 auto;
-  width: 90%;
+.wrapper {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    width: 90%;
 }
 
-.form-div h4{
-  margin-left: 3em;
+.form-div h4 {
+    margin-left: 3em;
 }
+
 @media (max-width: 650px) {
-  .wrapper{
-    flex-direction: column;
-  }
-  .form-div h4{
-    margin-left: 0;
-  }
-  form{
-    margin-left: 0;
-  }
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .form-div h4 {
+        margin-left: 0;
+    }
+
+    form {
+        margin-left: 0;
+    }
 }
