@@ -3,6 +3,7 @@ body {
     font-family: 'poppins', serif;
     color: #31363F;
     background: #F1F1F1;
+    min-height: 100vh;
 }
 a{
     text-decoration: none;
